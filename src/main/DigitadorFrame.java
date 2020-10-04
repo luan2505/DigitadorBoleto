@@ -39,7 +39,7 @@ public class DigitadorFrame extends JFrame {
 	private JPanel contentPane;
 	private JTextField txtBoletoCode;
 
-	private int delayValue[] = { 5000, 4000, 3000, 2000 };
+	private int delayValue[] = { 2000, 3000, 4000, 5000 };
 	private int sizeBoleto = 0;
 
 	/**
@@ -134,7 +134,7 @@ public class DigitadorFrame extends JFrame {
 		JLabel lblNewLabel = new JLabel("Digite o numero do Boleto:");
 
 		JComboBox cboxDelay = new JComboBox();
-		cboxDelay.setModel(new DefaultComboBoxModel(new String[] { "5 seg", "4 seg", "3 seg", "2 seg" }));
+		cboxDelay.setModel(new DefaultComboBoxModel(new String[] {"2 seg", "3 seg", "4 seg", "5 seg"}));
 
 		// BOTAO QUE APLICA A DIGITACAO ---------------------------------------------
 		JButton btnDigitarBoleto = new JButton("Digitar Boleto");

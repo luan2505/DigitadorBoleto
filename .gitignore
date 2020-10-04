@@ -11,7 +11,9 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+jgoodies-forms-1.8.0.jar
+jgoodies-forms-1.8.0-sources.jar
+miglayout15-swing.jar
 *.war
 *.nar
 *.ear
